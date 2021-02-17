@@ -9,7 +9,7 @@ import java.util.List;
 @Entity
 @Getter @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@ToString(of = {"id", "username"})
+@ToString(of = {"id", "name"})
 public class Team {
 
     @Id
